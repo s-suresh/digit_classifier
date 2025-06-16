@@ -41,4 +41,4 @@ if st.button("Classify Drawing"):
         st.bar_chart(prediction[0])
 
 if st.button("Retry"):
-    st.experimental_rerun()
+    st.rerun()
