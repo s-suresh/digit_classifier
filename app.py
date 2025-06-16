@@ -7,7 +7,7 @@ import tensorflow as tf
 # Load trained model
 @st.cache_resource()
 def load_model():
-    return tf.keras.models.load_model("model_finetuned.h5")
+    return tf.keras.models.load_model("model.keras")
 
 model = load_model()
 
