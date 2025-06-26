@@ -1,6 +1,7 @@
-streamlit==1.27.2
+streamlit==1.26.0
 streamlit-drawable-canvas==0.8.0
 tensorflow-cpu==2.10.1
 protobuf==3.19.6
 Pillow==9.5.0
 numpy==1.23.5
+
